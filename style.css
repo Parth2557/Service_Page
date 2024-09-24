@@ -1,962 +1,952 @@
-    /* Basic Reset */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: "Montserrat", sans-serif !important;
-        font-optical-sizing: auto;
-        font-style: normal;
-        /* font-weight: <weight>; */
-        background-color: #f5f5f5;
-    }
-
-
-
-    /* What We do section Start */
-
-    .container.what-we-do {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .section-new-header {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .section-new-header-subtitle {
-        display: inline-block;
-        /* background-color: #FAE2D3; */
-        padding: 5px 10px;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: 600;
-        color: #F37C23;
-    }
-
-    i.fa-solid.fa-square.fa-lg {
-        filter: blur(3px);
-        -webkit-filter: blur(3px);
-        rotate: 48deg;
-    }
-
-
-    .section-new-header-heading-title {
-        display: inline-block;
-        background-color: #FAE2D3;
-        padding: 5px 15px;
-        border-radius: 30px;
-        margin: 3px 0px;
-
-    }
-
-    section.what-we-do.gradient-bg {
-        padding: 40px 0px;
-    }
-
-
-    .title {
-        font-size: 36px;
-        font-weight: bold;
-        margin-top: 15px;
-    }
-
-    .services_list .service_1 {
-        background: url(./img/label.png) no-repeat;
-    }
-
-    .services_list li:hover {
-        transition: all 0.7s linear;
-        -webkit-transition: all 0.7s linear;
-        -o-transition: all 0.7s linear;
-        -ms-transition: all 0.7s linear;
-        -moz-transition: all 0.7s linear;
-        transform: scale(1.1);
-
-    }
-
-    .gradient-bg {
-        background: url(./img/gradient-bg.png) no-repeat;
-        background-size: cover;
-        justify-content: center;
-
-    }
-
-    .services_list li {
-        transition: all 0.7s linear;
-        -webkit-transition: all 0.7s linear;
-        -o-transition: all 0.7s linear;
-        -ms-transition: all 0.7s linear;
-        -moz-transition: all 0.7s linear;
-        overflow: hidden;
-    }
-
-    .services_list li {
-        margin-bottom: 25px;
-    }
-
-    .services_list li .triangle {
-        display: inline-flex;
-        width: 100px;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-        padding-left: 2px;
-    }
-
-    .services_list li .triangle span {
-        width: 67px;
-        height: 67px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 22px;
-        color: #fff;
-        border-radius: 50%;
-        position: relative;
-    }
-
-    .services_list .lists_descrip {
-        display: inline-flex;
-        margin-left: 8px;
-        justify-content: center;
-        vertical-align: -webkit-baseline-middle;
-        font-weight: 600;
-        font-size: 14px;
-        color: #000;
-        padding-bottom: 25px;
-    }
-
-    /* What We do section End */
-
-
-    /* hire section  Start*/
-
-
-    section.hire_service_section {
-        margin: 40px 0px;
-        background: url("./img/Hire_Service_img.png") no-repeat;
-        background-size: cover;
-    }
-
-    .hire_Service_content {
-        text-align: center;
-        width: 100%;
-        max-width: 800px;
-        padding: 20px;
-        margin: 0 auto;
-    }
-
-    .hire_Service_title {
-        font-size: 20px;
-        margin-bottom: 10px;
-        color: white;
-    }
-
-    .hire_Service_content h2 {
-        font-weight: 900;
-        color: white;
-    }
-
-    .hire_Service_button {
-        display: inline-block;
-        padding: 15px 30px;
-        background-image: linear-gradient(-225deg, rgb(244 124 37) 20%, rgb(196 62 36) 100%);
-
-        color: #fff;
-        text-decoration: none;
-        border-radius: 40px;
-        transition: background-color 0.5s ease;
-        
-    }
-
-    .hire_Service_button:hover {
-        background-image: linear-gradient(-225deg, rgb(78, 75, 219) 20%, rgb(0, 5, 77) 100%);
-        background-color: #06054b;
-    }
-
-    /* hire section  End*/
-
-
-
-    /*  new case study section  Start*/
-
-
-    section.case_study_section {
-        padding: 40px 0px;
-    }
-
-    .conatainer.castudy_main {
-        padding: 20px 0px;
-    }
-    .row.cs-card-list {
-        padding: 35px 0px;
-    }
-
-
-    .container.case_study_section {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .case_study_section_card {
-        align-self: center;
-        background: #ffffff;
-        box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
-        border-radius: 15px;
-        width: 400px;
-        max-height: 640px;
-        padding: 25px;
-    }
-
-    .case_study_section_card p {
-        padding-right: 10px;
-        font-size: 20px;
-    }
-
-    .case_study_section_thumbnail img {
-        border-radius: 20px 20px 0px 0px;
-        border-radius: 8px;
-    }
-
-    .case_study_section_cs-card-body h1 {
-        font-family: Outfit;
-        font-style: normal;
-        color: #F37C23;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 65px;
-    }
-
-    .case_study_section_type p {
-        margin-bottom: 0;
-    }
-
-    .case_study_section_time {
-        align-content: center;
-    }
-
-    .case_study_section_details {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 10px;
-    }
-
-    .case_study_section_type p {
-        color: #00fff8;
-        font-family: Outfit;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .case_study_section_type .case_study_section_icon {
-        margin-right: 10px;
-    }
-
-    .case_study_section_cs-card-body p {
-        color: #8bacd9;
-        font-family: "Montserrat", sans-serif !important;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 26px;
-        text-align: left;
-    }
-
-    .case_study_section_type {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    figure.cs-card-image {
-        margin-bottom: 0px;
-    }
-
-    .cs-card-header a {
-        color: #f47c25 !important;
-    }
-
-    .cs-card-image img {
-        display: block;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 20px;
-    }
-
-    .cs-card-list {
-        width: 90%;
-    }
-
-
-    .cs-card-header {
-        background-color: rgb(255, 255, 255) !important;
-        border-bottom: none !important;
-    }
-
-    .cs-card-footer {
-        background-color: white !important;
-        border-top: none !important;
-        justify-content: space-between;
-        margin-top: 0rem !important;
-    }
-
-    .cs-card-header a {
-        color: #F37C23;
-    }
-
-    article.card {
-        border-radius: 24px;
-    }
-
-
-    article.card.case_study {
-        margin-bottom: 20px;
-        background-color: #ffffff;
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+/* Basic Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist";
+}
+
+body {
+  
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* font-weight: <weight>; */
+    background-color: #f5f5f5;
+}
+
+
+/* What We do section Start */
+
+.container.what-we-do {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-new-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-new-header-subtitle {
+    display: inline-block;
+    /* background-color: #FAE2D3; */
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F37C23;
+}
+
+
+.section-new-header-heading-title {
+    display: inline-block;
+    background-color: #FAE2D3;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 3px 0px;
+
+}
+
+.section-new-header-heading-title i{
+    font-size: 16px;
+}
+section.what-we-do.gradient-bg {
+    padding: 40px 0px;
+}
+
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.services_list .service_1 {
+    background: url(./img/label.png) no-repeat;
+}
+
+.services_list li:hover {
+    transition: all 0.7s linear;
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    -ms-transition: all 0.7s linear;
+    -moz-transition: all 0.7s linear;
+    transform: scale(1.1);
+
+}
+
+.gradient-bg {
+    background: url(./img/gradient-bg.png) no-repeat;
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.services_list li {
+    transition: all 0.7s linear;
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    -ms-transition: all 0.7s linear;
+    -moz-transition: all 0.7s linear;
+    overflow: hidden;
+}
+
+.services_list li {
+    margin-bottom: 25px;
+}
+
+.services_list li .triangle {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.services_list li .triangle span {
+    width: 67px;
+    height: 67px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.services_list .lists_descrip {
+    display: inline-flex;
+    margin-left: 8px;
+    justify-content: center;
+    vertical-align: -webkit-baseline-middle;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+/* What We do section End */
+
+
+/* Get in touch section  Start*/
+
+section.hire_service_section {
+    margin: 10px 0px;
+    background: url("./img/Hire_Service_img.png") no-repeat;
+    background-size: cover;
+}
+
+.hire_Service_content {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+.hire_Service_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hire_Service_content h2 {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hire_Service_button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-image: linear-gradient(-225deg, rgb(244 124 37) 20%, rgb(196 62 36) 100%);
+
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: background-color 0.5s ease;
+    
+}
+
+.hire_Service_button:hover {
+    background-image: linear-gradient(-225deg, rgb(78, 75, 219) 20%, rgb(0, 5, 77) 100%);
+    background-color: #06054b;
+}
+
+/* hire section  End*/
+
+
+/*  new case study section  Start*/
+
+section.case_study_section {
+    padding: 40px 0px;
+}
+
+.conatainer.castudy_main {
+    padding: 20px 0px;
+}
+.row.cs-card-list {
+    padding: 35px 0px;
+}
+
+.container.case_study_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.case_study_section_card {
+    align-self: center;
+    background: #ffffff;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    width: 400px;
+    max-height: 640px;
+    padding: 25px;
+}
+
+.case_study_section_card p {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.case_study_section_thumbnail img {
+    border-radius: 20px 20px 0px 0px;
+    border-radius: 8px;
+}
+
+.case_study_section_cs-card-body h1 {
+   
+    font-style: normal;
+    color: #F37C23;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 65px;
+}
+
+.case_study_section_type p {
+    margin-bottom: 0;
+}
+
+.case_study_section_time {
+    align-content: center;
+}
+
+.case_study_section_details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.case_study_section_type p {
+    color: #00fff8;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.case_study_section_type .case_study_section_icon {
+    margin-right: 10px;
+}
+
+.case_study_section_cs-card-body p {
+    color: #8bacd9;
+  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+}
+
+.case_study_section_type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+figure.cs-card-image {
+    margin-bottom: 0px;
+}
+
+.cs-card-header a {
+    color: #f47c25 !important;
+}
+
+.cs-card-image img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.cs-card-list {
+    width: 90%;
+}
+
+.cs-card-header {
+    background-color: rgb(255, 255, 255) !important;
+    border-bottom: none !important;
+}
+
+.cs-card-footer {
+    background-color: white !important;
+    border-top: none !important;
+    justify-content: space-between;
+    margin-top: 0rem !important;
+}
+
+.cs-card-header a {
+    color: #F37C23;
+}
+
+article.card {
+    border-radius: 24px;
+}
+
+article.card.case_study {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    /* Fixed rgba */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1.25rem;
+    position: relative;
+    transition: .15s ease-in;
+
+    &:hover,
+    &:focus-within {
+        box-shadow: 0 0 0 2px #f47c25, 0 10px 60px 0 rgba(0, 0, 0, 0.1) !important;
         /* Fixed rgba */
-        border-radius: 15px;
-        overflow: hidden;
-        padding: 1.25rem;
-        position: relative;
-        transition: .15s ease-in;
+        transform: translateY(-5px);
+        /* Fixed: translatey to translateY */
+    }
+}
 
-        &:hover,
-        &:focus-within {
-            box-shadow: 0 0 0 2px #f47c25, 0 10px 60px 0 rgba(0, 0, 0, 0.1) !important;
-            /* Fixed rgba */
-            transform: translateY(-5px);
-            /* Fixed: translatey to translateY */
+.cs-card-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cs-card-header {
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        font-weight: 600;
+        font-size: 1.375rem;
+        line-height: 1.25;
+        padding-right: 1rem;
+        text-decoration: none;
+        color: inherit;
+        will-change: transform;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
         }
     }
 
 
-    .cs-card-image {
-        border-radius: 10px;
-        overflow: hidden;
+}
+
+.case-study-btn-arrow {
+    border: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    transition: .25s ease;
+    box-shadow: 0 0 0 1px rgba(#000, .05), 0 3px 8px 0 rgba(#000, .15);
+    z-index: 1;
+    cursor: pointer;
+    color: #565656;
+
+    .case-study-btn-arrow svg {
+        width: 1em;
+        height: 1em;
     }
 
-    .cs-card-header {
-        margin-top: 1rem;
+    &:hover,
+    &:focus {
+        color: #FFF;
+    }
+}
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+.cs-card-footer {
+    margin-top: 1.25rem;
+    border-top: 1px solid #ddd;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-        a {
-            font-weight: 600;
-            font-size: 1.375rem;
-            line-height: 1.25;
-            padding-right: 1rem;
-            text-decoration: none;
-            color: inherit;
-            will-change: transform;
-
-            &:after {
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-            }
-        }
+.cs-card-meta {
+    display: flex;
+    align-items: center;
+    color: #787878;
+}
 
 
+/* Get in touch button  Start*/
+
+.custom-btn {
+    flex: 0 0 auto;
+    display: inline-block;
+    
+    color: #22281e;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    background: #000;
+    border-radius: 50px;
+    padding: 27px 37px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s cubic-bezier(.57, .21, .69, 1.25);
+    overflow: hidden;
+    transition-delay: 0s;
+}
+
+.custom-btn .text {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -3px;
+}
+
+.custom-btn .text::after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    background: transparent;
+    color: #000;
+    content: attr(data-back);
+    transform: translateY(240%);
+}
+
+.custom-btn .text::before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: block;
+    transition: 0.5s;
+    position: relative;
+    color: #fff;
+    content: attr(data-front);
+    transform: translateY(0);
+}
+
+.custom-btn::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: orangered;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 100%;
+    z-index: -1;
+    transition: .5s ease-in-out;
+}
+
+.custom-btn:hover {
+    background: var(--fd-clr-pr-1);
+    transition-delay: .3s;
+}
+
+.custom-btn:hover::after {
+    top: 0%;
+    border-radius: 0%;
+}
+
+.custom-btn:hover .text::after {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.custom-btn:hover .text::before {
+    opacity: 0;
+    transform: translateY(-240%);
+}
+
+.custom-btn.inner-btn {
+    background: orangered;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.custom-btn.inner-btn::after {
+    background: #ffffff;
+}
+
+.custom-btn.inner-btn .text::after {
+    color: #000000;
+}
+
+/* Get in touch button End*/
+
+
+/* View more button of Case study */
+
+.Main-Button-ctn{
+    text-align: center;
+}
+
+.Main-Button {
+    line-height: auto;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 9;
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    background-color: #11112a;
+    color: #fff;
+    border: 2px solid transparent;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.Main-Button span {
+    margin-left: 12px;
+    position: relative;
+}
+
+.Main-Button span .svg-icon {
+    position: absolute;
+    top: 7px;
+    left: -2px;
+    right: 0;
+    z-index: 2;
+    margin: 0 auto;
+    transition: 0.3s;
+    color: #11112a;
+}
+
+.Main-Button svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.Main-Button:hover span .svg-icon {
+    color: #fff;
+}
+
+.Main-Button:hover span .svg-bg {
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.Main-Button:hover {
+    background-color: transparent;
+    color: var(--Text);
+    border-color: var(--Text);
+    text-decoration: none;
+}
+
+/* View more button of Case study End */
+
+
+/* Testimonial Slider Start */
+
+.testimonial_section {
+    background-color: #edf4ff;
+    padding: 40px 0px;
+}
+
+.conatiner.testimonial_main {
+    padding: 20px 0px;
+}
+
+  /* spacer */
+  .spacer{
+    height:150px;
+    width:100%;
+  }
+  .spacer2{
+    height:20px;
+    width:100%;
+  }
+  /* spacer ends */
+  
+  /* slider styles */
+  .sd_master_wrapper{
+      position: relative;	
+      max-width:900px;
+      margin:0 auto;
+      padding:0;
+      border-radius:10px;
+      z-index:9999;
+  }
+  .sdtestBg3{
+      height: 100%;
+      width: 80%;
+      background: #fff;
+      position: absolute;
+      bottom: -40px;
+      left: 10%;
+      border-radius: 20px;
+      box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+      z-index:1;
+  }
+  .sdtestBg2{
+      height: 100%;
+      width: 90%;
+      background: #fff;
+      position: absolute;
+      bottom: -22px;
+      left: 5%;
+      border-radius: 20px;
+      box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
+      z-index:2;
+  }
+  
+  .sd_scroll {
+      height: auto;
+      max-height: 180px;
+      overflow: auto;
+  }
+      
+  .slideshow {
+      position: relative;
+      min-height: 300px;
+      height: auto;
+      background: #fff;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote1.png), url(https://farsighttechnologies.com/wp-content/uploads/2021/03/quote.png);
+      background-position: top 15px left 15px, bottom 40% right 15px;
+      background-repeat: no-repeat;
+      background-size: 180px, 180px;
+      z-index:3;
+  }
+  button.slick-prev.slick-arrow {
+      position: absolute;
+      z-index: 9999;
+      bottom: -80px;
+      right: 160px;
+      background: transparent;
+      color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      height: 15px;
+      width: 30px;
+      padding: 0;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/left-icon.png);
+      background-size: 100% 100%;
+  }
+  button.slick-next.slick-arrow {
+      position: absolute;
+      bottom: -82px;
+      right: 105px;
+      background: transparent;
+      color: transparent;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      outline: none;
+      height: 18px;
+      width: 40px;
+      background-image: url(https://farsighttechnologies.com/wp-content/uploads/2021/03/right-icon.png);
+      background-size: 100% 100%;
+  }
+  .pagingInfo {
+      position: absolute;
+      bottom: 0;
+      z-index: 999;
+  }
+  .sdCustomSliderHeadig {
+      color: #94A2B3;
+    
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.6em;
+      text-align: center;
+  }
+  .sdCustomSliderBtn{
+      display: inline-block;
+      text-decoration: none;
+      
+      background: #E31C3A;
+      color: #fff;
+      padding: 12px 25px;
+      margin-top: 30px;
+      border-radius: 4px;
+      outline: none;
+      font-size: 14px;
+      font-weight: 500;
+  }
+  .sdAllContent{
+      width:75%;
+      margin:auto;
+  }
+  .thumbnail img {
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 15px;
+  }
+  .content{
+      display:block !important;
+      padding: 5px;
+  }
+  .SdClientName {
+      text-align: center;
+      color: #272D4E;
+    
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.4em;
+      margin-top: 15px;
+  }
+  .SdClientDesc {
+      text-align: center;
+      color: #5480f7;
+     
+      font-size: 14px;
+      line-height: 1.4em;
+      margin-bottom: 10px;
+  }
+  
+
+
+  /* style for moblile */
+  @media (max-width:576px){
+  .sd_scroll {
+      height: auto;
+      overflow: auto;
+      max-height:240px;
+  }
+  
+  .thumbnail, .btnNtxt{
+      width: 100% !important;
+      display: block !important;
+  }
+  
+  }
+  /* scroll bar */
+
+  /* total width */
+  .sd_scroll::-webkit-scrollbar {
+      background-color:transparent;
+      width:6px;
+  }
+  
+  /* background of the scrollbar except button or resizer */
+  .sd_scroll::-webkit-scrollbar-track {
+      background-color:transparent;
+  }
+
+  .sd_scroll::-webkit-scrollbar-track:hover {
+      background-color:transparent;
+  }
+  
+  /* scrollbar itself */
+  .sd_scroll::-webkit-scrollbar-thumb {
+      background-color:#babac0;
+      border-radius:16px;
+      
+  }
+  .sd_scroll::-webkit-scrollbar-thumb:hover {
+      background-color:#a0a0a5;
+  }
+
+/* Testimonial Slider  End */
+
+.new_get_in_touch_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10rem;
+    transition: all 0.02s;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+    z-index: 0;
+    box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .new_get_in_touch_btn:hover {
+    background: rgb(193, 228, 248);
+    color: rgb(33, 0, 85);
+  }
+  
+  .new_get_in_touch_btn:active {
+    transform: scale(0.97);
+  }
+  
+  .hoverEffect {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .hoverEffect div {
+    background: rgb(222, 0, 75);
+    background: linear-gradient(90deg, rgb(222 122 0) 0%, rgb(255 176 70) 49%, rgb(255 0 158) 100%);
+    border-radius: 40rem;
+    width: 10rem;
+    height: 10rem;
+    transition: 0.4s;
+    filter: blur(20px);
+    animation: effect infinite 3s linear;
+    opacity: 0.5;
+  }
+  
+  .new_get_in_touch_btn:hover .hoverEffect div {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  @keyframes effect {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+/*  new case study section end */
+
+
+/* All media queiry Start */
+
+@media (max-width: 1024px) {
+
+    .col-lg-4.col-md-4.wwd_service {
+        padding: 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .col-lg-4.col-md-4.wwd_service {
+        margin: 0px auto;
     }
 
     .case-study-btn-arrow {
-        border: 0;
-        background-color: #fff;
-        border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        font-size: 1.25rem;
-        transition: .25s ease;
-        box-shadow: 0 0 0 1px rgba(#000, .05), 0 3px 8px 0 rgba(#000, .15);
-        z-index: 1;
-        cursor: pointer;
-        color: #565656;
-
-        .case-study-btn-arrow svg {
-            width: 1em;
-            height: 1em;
-        }
 
         &:hover,
         &:focus {
+            background-color: #f47c25;
             color: #FFF;
+            width: auto;
+            height: 17px;
         }
     }
 
-    .cs-card-footer {
-        margin-top: 1.25rem;
-        border-top: 1px solid #ddd;
-        padding-top: 2px;
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .cs-card-meta {
-        display: flex;
-        align-items: center;
-        color: #787878;
-    }
-
-
-
-    /* View more button of Case study */
-
-    /* .effect {
-        text-align: center;
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        color: white;
-        text-transform: capitalize;
-        background-image: linear-gradient(-225deg, rgb(244 124 37) 20%, rgb(196 62 36) 100%);
-        font-size: 18px;
-        padding: 20px 0px;
-        width: 150px;
-        border-radius: 40px;
-        line-height: 15px;
-        overflow: hidden;
-        font-weight: 500;
-    } */
-
-
-    /* .button-effect {
-        text-align: center;
-        margin: 20px;
-    } */
-
-    /* .effect.effect-1 {
-        transition: all 0.2s linear 0s;
-    }
-
-    .effect.effect-1:before {
-        content: "\f178";
-        font-family: FontAwesome;
-        font-size: 15px;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        right: 0;
-        top: 0;
-        opacity: 0;
-        height: 100%;
-        width: 40px;
-        transition: all 0.2s linear 0s;
-
-    }
-
-    .effect.effect-1:hover {
-        background-image: linear-gradient(-225deg, rgb(78, 75, 219) 20%, rgb(0, 5, 77) 100%);
-        text-indent: -20px;
-    }
-
-    .effect.effect-1:hover:before {
-        opacity: 1;
-        text-indent: 0px;
-    } */
-
-
-
-
-    button.case_study_btn {
-        margin: 0px auto;
-    }
-    .case_study_btn {
-        text-align: center;
-        position: relative;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-        padding-block: 0.5rem;
-        padding-inline: 1.25rem;
-        background-image: linear-gradient(-225deg, rgb(244 124 37) 20%, rgb(196 62 36) 100%);
-        border-radius: 9999px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        color: #ffff;
-        gap: 10px;
-        font-weight: bold;
-        border: 3px solid #ffffff4d;
-        outline: none;
-        overflow: hidden;
+    button.case-study-btn-arrow {
         font-size: 15px;
     }
-    
-    .icon {
-        width: 24px;
-        height: 24px;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .case_study_btn:hover {
-        transform: scale(1.05);
-        border-color: #fff9;
-    }
-    
-    .case_study_btn:hover .icon {
-        transform: translate(4px);
-    }
-    
-    .case_study_btn:hover::before {
-        animation: shine 1.5s ease-out infinite;
-    }
-    
-    .case_study_btn::before {
-        content: "";
-        position: absolute;
-        width: 100px;
-        height: 100%;
-        background-image: linear-gradient(
-        120deg,
-        rgba(255, 255, 255, 0) 30%,
-        rgba(255, 255, 255, 0.8),
-        rgba(255, 255, 255, 0) 70%
-        );
-        top: 0;
-        left: -100px;
-        opacity: 0.6;
-    }
-    
-    @keyframes shine {
-        0% {
-        left: -100px;
-        }
-    
-        60% {
-        left: 100%;
-        }
-    
-        to {
-        left: 100%;
-        }
-    }
-    
 
+    .cs-card-meta.cs-card-meta--views {
+        font-size: 13px;
+    }
 
-
-    /* View more button of Case study End */
-
-
-    /* Testimonial Slider Start */
-
-    .Testimonial-section {
-        padding: 100px 0px 150px 0px;
-        margin-bottom: 30px;
-    }
-    
-    .testimonial_master_wrapper {
-        position: relative;
-        margin: 0 auto;
-        padding: 0;
-        border-radius: 10px;
-        z-index: 9999;
-        margin-top: 50px;
-    }
-    
-    .testimonialBg3 {
-        height: 100%;
-        width: 80%;
-        background: #fff;
-        position: absolute;
-        bottom: -40px;
-        left: 10%;
-        border-radius: 20px;
-        box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
-        z-index: 1;
-    }
-    
-    .testimonialBg2 {
-        height: 100%;
-        width: 90%;
-        background: #fff;
-        position: absolute;
-        bottom: -22px;
-        left: 5%;
-        border-radius: 20px;
-        box-shadow: 0px 18px 52.8537px rgb(215 228 249 / 50%);
-        z-index: 2;
-    }
-    
-    .testimonial_scroll {
-        height: auto;
-        /* max-height: 180px; */
-        overflow: auto;
-    }
-    
-    .slideshow {
-        position: relative;
-        min-height: 300px;
-        height: auto;
-        background: #fff;
-        box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
-        border-radius: 20px;
-    background-image: url(img/Testimonial/quote-start.png), url(img/Testimonial/quote-end.png);
-        background-position: top 15px left 15px, bottom 40% right 15px;
-        background-repeat: no-repeat;
-        background-size: 180px, 180px;
-        z-index: 3;
-    }
-    
-    .slick-slider {
-        border: 1px solid #0000000f;
-    }
-    
-    button.slick-prev.slick-arrow {
-        position: absolute;
-        /* z-index: 9999; */
-        bottom: -120px;
-        left: 45%;
-        /* background: var(--Text); */
-        background: none;
-        border: 2px solid var(--Text);
-        color: transparent;
-        /* border: none; */
-        outline: none;
-        cursor: pointer;
-        height: 45px;
-        width: 45px;
-        border-radius: 50px;
-        padding: 0;
-        background-image: url(img/Testimonial/Arrow-left.svg);
-        background-size: 100% 100%;
-        transition: all .4s ease-in-out;
-        opacity: .85;
-    }
-    
-    button.slick-next.slick-arrow {
-        position: absolute;
-        bottom: -120px;
-        right: 45%;
-        background: none;
-        border: 2px solid var(--Text);
-        color: transparent;
-        /* border: none; */
-        padding: 0;
-        cursor: pointer;
-        outline: none;
-        height: 45px;
-        width: 45px;
-        border-radius: 50px;
-        background-image: url(img/Testimonial/Arrow-right.svg);
-        background-size: 100% 100%;
-        transition: all .4s ease-in-out;
-        opacity: .85;
-    }
-    
-    button.slick-prev.slick-arrow:hover {
-        background-color: #0c0f23;
-        background-image: url(img/Testimonial/Arrow-left-White.svg);
-    }
-    
-    button.slick-next.slick-arrow:hover {
-        background-color: #0c0f23;
-        background-image: url(img/Testimonial/Arrow-right-White.svg) !important;
-    }
-    
-    .pagingInfo {
-        position: absolute;
-        bottom: 0;
-        z-index: 999;
-    }
-    
-    .testimonialCustomSliderHeading {
-        color: var(--Text);
+    .cs-card-header a {
         font-size: 18px;
-        font-weight: 400;
-        line-height: 1.4em;
-        text-align: center;
-    }
-    
-    .testimonialAllContent {
-        width: 85%;
-        margin: auto;
-    }
-    
-    .thumbnail img {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 20px;
-        border: 2px solid #11112a0f;
-    }
-    
-    .content {
-        display: block !important;
-        padding: 5px;
-    }
-    
-    .testimonialClientName {
-        text-align: center;
-        color: #272D4E;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 1.4em;
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-    
-    .testimonialClientDesc {
-        text-align: center;
-        color: #7854F7;
-        font-size: 14px;
-        line-height: 1.4em;
-        margin-bottom: 10px;
-    }
-    
-    .testimonial_scroll::-webkit-scrollbar {
-        background-color: transparent;
-        width: 6px;
-    }
-    
-    /* background of the scrollbar except button or resizer */
-    .testimonial_scroll::-webkit-scrollbar-track {
-        background-color: transparent;
-    }
-    
-    .testimonial_scroll::-webkit-scrollbar-track:hover {
-        background-color: transparent;
-    }
-    
-    /* scrollbar itself */
-    .testimonial_scroll::-webkit-scrollbar-thumb {
-        background-color: #babac0;
-        border-radius: 16px;
-    }
-    
-    .testimonial_scroll::-webkit-scrollbar-thumb:hover {
-        background-color: #a0a0a5;
-    }
-    
-    @media (max-width: 1200px){
-        button.slick-prev.slick-arrow {
-            left: 40%;
-        }
-    
-        button.slick-next.slick-arrow {
-            right: 40%;
-        }
-    }
-    
-    @media (max-width: 576px){
-        button.slick-prev.slick-arrow {
-            left: 32%;
-        }
-    
-        button.slick-next.slick-arrow {
-            right: 32%;
-        }
-    
-        .testimonial_scroll {
-            height: auto;
-            overflow: auto;
-            max-height: 240px;
-        }
-    
-        .thumbnail,
-        .btnNtxt {
-            width: 100% !important;
-            display: block !important;
-        }
-    
-        .testimonialCustomSliderHeading {
-            font-size: 16px;
-        }
-    
-        .testimonialAllContent {
-            width: 80%;
-            margin: auto;
-        }
     }
 
-
-    /* Testimonial Slider  End */
-
-    .new_get_in_touch_btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 30px;
-        border: 0;
-        position: relative;
-        overflow: hidden;
-        border-radius: 10rem;
-        transition: all 0.02s;
-        font-weight: bold;
-        cursor: pointer;
-        color: rgb(37, 37, 37);
-        z-index: 0;
-        box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
-    }
-    
-    .new_get_in_touch_btn:hover {
-        background: rgb(193, 228, 248);
-        color: rgb(33, 0, 85);
-    }
-    
-    .new_get_in_touch_btn:active {
-        transform: scale(0.97);
-    }
-    
-    .hoverEffect {
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-    }
-    
-    .hoverEffect div {
-        background: rgb(222, 0, 75);
-        background: linear-gradient(90deg, rgb(222 122 0) 0%, rgb(255 176 70) 49%, rgb(255 0 158) 100%);
-        border-radius: 40rem;
-        width: 10rem;
-        height: 10rem;
-        transition: 0.4s;
-        filter: blur(20px);
-        animation: effect infinite 3s linear;
-        opacity: 0.5;
-    }
-    
-    .new_get_in_touch_btn:hover .hoverEffect div {
-        width: 8rem;
-        height: 8rem;
-    }
-    
-    @keyframes effect {
-        0% {
-        transform: rotate(0deg);
-        }
-    
-        100% {
-        transform: rotate(360deg);
-        }
-    }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*  new case study section end */
-
-
-    /* All media queiry Start */
-
-    @media (max-width: 1024px) {
-
-        .col-lg-4.col-md-4.wwd_service {
-            padding: 0px;
-        }
+    .col-lg-4.col-md-4.wwd_service {
+        flex: 0 0 auto;
+        width: 50%;
 
     }
 
+    .col-lg-4.col-md-4.wwd_service {
+        padding: 12px !important;
+    }
+}
 
-    @media (max-width: 768px) {
-        .col-lg-4.col-md-4.wwd_service {
-            margin: 0px auto;
-        }
+@media (max-width: 425px) {
 
-        .case-study-btn-arrow {
-
-            &:hover,
-            &:focus {
-                background-color: #f47c25;
-                color: #FFF;
-                width: auto;
-                height: 17px;
-            }
-        }
-
-        button.case-study-btn-arrow {
-            font-size: 15px;
-        }
-
-        .cs-card-meta.cs-card-meta--views {
-            font-size: 13px;
-        }
-
-        .cs-card-header a {
-            font-size: 18px;
-        }
-
-        .col-lg-4.col-md-4.wwd_service {
-            flex: 0 0 auto;
-            width: 50%;
-
-        }
-
-        .col-lg-4.col-md-4.wwd_service {
-            padding: 12px !important;
-        }
+    .col-lg-4.col-md-4.wwd_service {
+        flex: 0 0 auto;
+        width: 100% !important;
     }
 
+    .col-lg-4.col-md-4.wwd_service {
+        padding: 12px;
+    }
 
-    @media (max-width: 425px) {
+}
 
-        .col-lg-4.col-md-4.wwd_service {
-            flex: 0 0 auto;
-            width: 100% !important;
-        }
+@media (max-width: 320px) {
 
-        .col-lg-4.col-md-4.wwd_service {
-            padding: 12px;
-        }
+    .container.what-we-do {
+
+        padding: 3px;
+    }
+    .cs-card-header a {
+
+        font-size: 18px !important;
+        line-height: 1.25;
 
     }
 
-    @media (max-width: 320px) {
-
-        .container.what-we-do {
-
-            padding: 3px;
-        }
-        .cs-card-header a {
-
-            font-size: 18px !important;
-            line-height: 1.25;
-
-        }
-
-        button.case-study-btn-arrow {
-            font-size: 11px;
-        }
-
-        .cs-card-meta.cs-card-meta--views {
-            font-size: 10px;
-        }
+    button.case-study-btn-arrow {
+        font-size: 11px;
     }
 
-    /* All media queiry End */
+    .cs-card-meta.cs-card-meta--views {
+        font-size: 10px;
+    }
+}
+
+/* All media queiry End */
